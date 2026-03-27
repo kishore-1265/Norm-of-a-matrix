@@ -32,7 +32,7 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
     6.Format the result to 2 decimal places using "{:.2f}".format().
     7.Display the final result using print().
     8.End the program.
-## Progra
+## Program
 
 ```Python
 # Register No: 212225040192
