@@ -6,16 +6,34 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ## 1-norm:
-    1.Import the required module NumPy using import numpy as np to handle matrix operations.
-    2.Read the matrix input from the user using eval(input()).
-    3.Convert the given input into a NumPy array using np.array().
-    4.Compute the 1-norm of the matrix using np.linalg.norm(mat, 1) and store the result.
-    5.Compute the 2-norm of the matrix using np.linalg.norm(mat, 2) and store the result.
-    6.Compute the infinity norm using np.linalg.norm(mat, np.inf) and store the result.
-    7.Format each result to 2 decimal places using "{:.2f}".format().
-    8.Display all three norm values using print().
- 
-## Program:
+    1.Start the program.
+    2.Import the required module NumPy using import numpy as np to perform matrix operations.
+    3.Read the matrix input from the user using eval(input()).
+    4.Convert the input into a NumPy array using np.array().
+    5.Use np.linalg.norm(mat, 1) to compute the 1-norm (maximum column sum).
+    6.Format the result to 2 decimal places using "{:.2f}".format().
+    7.Display the final result using print().
+    8.End the program.
+## 2-norm:
+    1.Start the program.
+    2.Import the required module NumPy using import numpy as np to perform matrix operations.
+    3.Read the matrix input from the user using eval(input()).
+    4.Convert the input into a NumPy array using np.array().
+    5.Apply np.linalg.norm(mat, 2) to calculate the 2-norm (largest singular value).
+    6.Format the result to 2 decimal places using "{:.2f}".format().
+    7.Display the final result using print().
+    8.End the program.
+## infinity-norm:
+    1.Start the program.
+    2.Import the required module NumPy using import numpy as np to perform matrix operations.
+    3.Read the matrix input from the user using eval(input()).
+    4.Convert the input into a NumPy array using np.array().
+    5.Use np.linalg.norm(mat, np.inf) to compute the infinity norm (maximum row sum).m:
+    6.Format the result to 2 decimal places using "{:.2f}".format().
+    7.Display the final result using print().
+    8.End the program.
+## Progra
+
 ```Python
 # Register No: 212225040192
 # Developed By: Kishore R
